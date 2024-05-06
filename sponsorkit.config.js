@@ -15,22 +15,22 @@ export default defineConfig({
   tiers: [
     {
       title: 'Backers',
-      preset: tierPresets.base,
+      preset: tierPresets.small,
     },
     {
       title: 'Sponsors',
       monthlyDollars: 20,
-      preset: tierPresets.medium,
+      preset: tierPresets.base,
     },
     {
       title: 'Silver Sponsors',
       monthlyDollars: 50,
-      preset: tierPresets.large,
+      preset: tierPresets.medium,
     },
     {
       title: 'Gold Sponsors',
       monthlyDollars: 100,
-      preset: tierPresets.xl,
+      preset: tierPresets.large,
     },
   ],
 })
