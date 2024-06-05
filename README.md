@@ -7,7 +7,7 @@
 </p>
 
 ```
-# [My Lovely Sponsors](https://github.com/sponsors/Boshen)
+# [Sponsored By](https://github.com/sponsors/Boshen)
 
 <p align="center">
   <a href="https://github.com/sponsors/Boshen">
