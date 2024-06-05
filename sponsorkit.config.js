@@ -5,9 +5,6 @@ export default defineConfig({
     login: 'boshen',
     type: 'user',
   },
-  opencollective: {},
-  patreon: {},
-  afdian: {},
   outputDir: '.',
   width: 800,
   formats: ['svg', 'png'],
@@ -19,18 +16,33 @@ export default defineConfig({
     },
     {
       title: 'Sponsors',
-      monthlyDollars: 20,
+      monthlyDollars: 50,
       preset: tierPresets.base,
     },
     {
-      title: 'Silver Sponsors',
-      monthlyDollars: 50,
+      title: 'Bronze Sponsors',
+      monthlyDollars: 100,
       preset: tierPresets.medium,
     },
     {
-      title: 'Gold Sponsors',
-      monthlyDollars: 100,
+      title: 'Silver Sponsors',
+      monthlyDollars: 250,
       preset: tierPresets.large,
     },
+    {
+      title: 'Gold Sponsors',
+      monthlyDollars: 500,
+      preset: tierPresets.xl,
+    },
+    // {
+      // title: 'Platinum Sponsors',
+      // monthlyDollars: 2000,
+      // preset: tierPresets.large,
+    // },
+    // {
+      // title: 'Diamond Sponsors',
+      // monthlyDollars: 4000,
+      // preset: tierPresets.xl,
+    // },
   ],
 })

@@ -1,15 +1,13 @@
 {
   "name": "sponsors",
   "private": true,
-  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "build": "sponsorkit"
   },
   "devDependencies": {
-    "sponsorkit": "^0.12.2"
+    "@types/node": "^20.14.1",
+    "sponsorkit": "^0.14.5"
   },
-  "engines": {
-    "node": ">=20.12.0"
-  },
-  "packageManager": "pnpm@9.0.6"
+  "packageManager": "pnpm@9.1.0"
 }

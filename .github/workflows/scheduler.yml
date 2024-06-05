@@ -13,16 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version-file: package.json
-      - uses: pnpm/action-setup@v3
-      - run: pnpm install
-      - run: pnpm run build
+          node-version: lts/*
+
+      - run: corepack enable && pnpm i
+
+      - run: npm run build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: boshen
           SPONSORKIT_GITHUB_TYPE: user
+
       - uses: EndBug/add-and-commit@v9
         with:
           add: "sponsors.*"
