@@ -1,4 +1,5 @@
 name: Scheduler
+
 on:
   workflow_dispatch:
   schedule:
@@ -6,8 +7,12 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/*.md'
+
 permissions:
   contents: write
+
 jobs:
   update-sponsors:
     runs-on: ubuntu-latest
