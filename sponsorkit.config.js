@@ -11,26 +11,26 @@ export default defineConfig({
   renderer: 'tiers',
   tiers: [
     {
-      title: '☕️ Backers',
+      title: '☕️ Backers ☕️ ',
       preset: tierPresets.small,
     },
     {
-      title: '🍺 Super Generous',
+      title: '🍺 Super Generous 🍺 ',
       monthlyDollars: 50,
       preset: tierPresets.base,
     },
     {
-      title: '🥉 Bronze Sponsors',
+      title: '🥉 Bronze Sponsors 🥉 ',
       monthlyDollars: 100,
       preset: tierPresets.medium,
     },
     {
-      title: '🥈 Silver Sponsors',
+      title: '🥈 Silver Sponsors 🥈',
       monthlyDollars: 250,
       preset: tierPresets.large,
     },
     {
-      title: '🥇 Gold Sponsors',
+      title: '🥇 Gold Sponsors 🥇',
       monthlyDollars: 500,
       preset: tierPresets.xl,
     },
