@@ -5,6 +5,10 @@ export default defineConfig({
     login: 'boshen',
     type: 'user',
   },
+  opencollective: {
+    slug: "boshen",
+    type: 'person'
+  },
   outputDir: '.',
   width: 800,
   formats: ['svg', 'png'],
