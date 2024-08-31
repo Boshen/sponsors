@@ -30,8 +30,7 @@ jobs:
       - run: npm run build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-          SPONSORKIT_GITHUB_LOGIN: boshen
-          SPONSORKIT_GITHUB_TYPE: user
+          SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
 
       - uses: EndBug/add-and-commit@v9
         with:
