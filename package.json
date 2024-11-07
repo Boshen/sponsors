@@ -6,7 +6,7 @@
     "build": "sponsorkit"
   },
   "devDependencies": {
-    "sponsorkit": "^0.15.4"
+    "sponsorkit": "^0.16.1"
   },
   "packageManager": "pnpm@9.1.0"
 }
