@@ -13,6 +13,7 @@ export default defineConfig({
   width: 800,
   formats: ['svg', 'png'],
   renderer: 'tiers',
+  prorateOnetime: true,
   tiers: [
     {
       title: 'Backers',
