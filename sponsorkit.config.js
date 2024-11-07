@@ -11,7 +11,7 @@ export default defineConfig({
   },
   outputDir: '.',
   width: 800,
-  formats: ['svg', 'png'],
+  formats: ['svg', 'png', "webp"],
   renderer: 'tiers',
   prorateOnetime: true,
   tiers: [
