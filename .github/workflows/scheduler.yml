@@ -19,15 +19,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v4.0.0
         with:
           node-version: lts/*
 
-      - run: corepack enable && pnpm i
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
 
-      - run: npm run build
+      - run: pnpm i
+
+      - run: pnpm run build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
