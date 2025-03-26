@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       sponsorkit:
-        specifier: ^16.4.1
-        version: 16.4.1
+        specifier: ^16.4.2
+        version: 16.4.2
       svgo:
         specifier: ^3.3.2
         version: 3.3.2
@@ -260,8 +260,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  sponsorkit@16.4.1:
-    resolution: {integrity: sha512-wSQGLjG5RsN6b1CHKW2BUFVJ5h6PxlkTCqfvEzWQRUjg7RUtArG5z9n4/aHvMjdNWGuGIMC6Fdw0hm9KwaL0hA==}
+  sponsorkit@16.4.2:
+    resolution: {integrity: sha512-hvWtgiwNwkmussn7R250hFnQ/IOj1m/Oi2CAXjgRVWUuRVWEYDKYk4loNiojitLGo9y36dTZOcVO7HxtG1UXnQ==}
     hasBin: true
 
   svgo@3.3.2:
@@ -502,7 +502,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  sponsorkit@16.4.1:
+  sponsorkit@16.4.2:
     dependencies:
       ansis: 3.17.0
       cac: 6.7.14
