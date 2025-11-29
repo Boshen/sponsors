@@ -6,8 +6,8 @@ export default defineConfig({
     type: 'user',
   },
   opencollective: {
-    slug: "boshen",
-    type: 'person'
+    slug: "oxc",
+    type: 'collective'
   },
   outputDir: '.',
   width: 800,
