@@ -20,7 +20,7 @@ export default defineConfig({
       preset: tierPresets.base,
     },
     {
-      title: 'Bronze Sponsors',
+      title: 'Supporters',
       monthlyDollars: 20,
       preset: tierPresets.medium,
     },
