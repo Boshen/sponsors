@@ -117673,12 +117673,15 @@
     "isOneTime": false,
     "monthlyDollars": 10,
     "privacyLevel": "PUBLIC",
+    "tierName": "☕️ Backer",
     "raw": {
       "id": "gnxdwzj3-le5mpwz7-znjpy8rv-bko04a97",
       "createdAt": "2025-06-01T09:22:59.318Z",
       "frequency": "MONTHLY",
       "status": "ACTIVE",
-      "tier": null,
+      "tier": {
+        "name": "☕️ Backer"
+      },
       "amount": {
         "value": 10
       },
@@ -117704,7 +117707,7 @@
             "type": "MASTODON"
           },
           {
-            "url": "https://bsky.app/profile/kosmotema.dev",
+            "url": "https://bsky.app/profile/kasmacioma.dev",
             "type": "BLUESKY"
           }
         ],
