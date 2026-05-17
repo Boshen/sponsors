@@ -30,6 +30,7 @@ jobs:
           SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
 
       - uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10.0.0
+        if: github.event_name == 'schedule'
         with:
           add: "sponsors.*"
           message: "chore: update sponsors"
