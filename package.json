@@ -9,5 +9,5 @@
     "sponsorkit": "^17.1.0",
     "svgo": "^4.0.1"
   },
-  "packageManager": "pnpm@11.1.2"
+  "packageManager": "pnpm@11.4.0"
 }
