@@ -123356,24 +123356,31 @@
     "tierName": "☕️ Backer",
     "createdAt": "2026-05-14T00:07:48.907Z",
     "raw": {
-      "id": "or_KdDHGhjwghcw0LjUpOenN",
-      "createdAt": "2026-05-14T00:07:48.907Z",
-      "frequency": "MONTHLY",
-      "status": "ACTIVE",
-      "tier": {
-        "name": "☕️ Backer"
+      "type": "CREDIT",
+      "kind": "CONTRIBUTION",
+      "id": "c494fabb-7a74-44ba-83fc-3d5ff4eaa0ef",
+      "order": {
+        "id": "or_KdDHGhjwghcw0LjUpOenN",
+        "status": "CANCELLED",
+        "frequency": "MONTHLY",
+        "tier": {
+          "name": "☕️ Backer"
+        },
+        "createdAt": "2026-05-14T00:07:48.907Z",
+        "amount": {
+          "value": 10
+        }
       },
+      "createdAt": "2026-07-02T18:04:26.380Z",
       "amount": {
         "value": 10
-      },
-      "totalDonations": {
-        "value": 30
       },
       "fromAccount": {
         "name": "Incognito",
         "id": "vedj9wro-z3a56d40-mal67blg-8x4m0ykn",
         "slug": "user-9981e3e7",
         "type": "INDIVIDUAL",
+        "githubHandle": null,
         "socialLinks": [],
         "isIncognito": false,
         "imageUrl": "https://images.opencollective.com/user-9981e3e7/avatar/460.png"
