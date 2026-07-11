@@ -82609,9 +82609,9 @@
       }
     },
     "isOneTime": false,
-    "monthlyDollars": 20,
+    "monthlyDollars": 5,
     "privacyLevel": "PUBLIC",
-    "tierName": "$20 a month",
+    "tierName": "$5 a month",
     "createdAt": "2026-01-17T22:46:50Z",
     "provider": "github"
   },
