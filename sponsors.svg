@@ -24,7 +24,7 @@ text {
   <image x="270" y="65" width="70" height="70" href="data:image/webp;base64,UklGRugCAABXRUJQVlA4INwCAABQDwCdASpQAFAAPm0wk0YkIyGhK5jrgIANiWIA1TPHp9+32ED1AbYDzAfq71HfOq6gD0AOla/cLKvrHON3I0ciOTVT/cJNOYu4XB1ZSPBMCFiWXtXx4WIwYhoIgSOy+t4dBW4JepYnLtZDwsYaikwU0IXaPemWf8ylE0ia4uFSBoH4QAD+33W//00j/40j/40jDjPRH63b+V7JCkSx7bQNupnQRIne3Nxe8WD97ou4MlkmJS/zixs/qViouuM4O5V3Bx8XF61/XEXWtpB9hVYP/oi15Mylt18gCulxR6/R7jXa6ODrcE6nfv+vrO6cVgP+tn+zkpBq+wxzsZNHQ/qrDgR+N3c4F28QcPo4n8lO2Seb4MY35eUJgpfc688RUXkQpUsPAajMaYQy5DTQV6EzAGZEXdlookxMQfjr54s67ByG9xqtGa0Sv7QMX43f3K4Li9z2saCwM1H5P9xiM38hcxS+qsLAchD2RAcw9A/uyeIQpGKI07r9ZlttUVHp3ENZKoATXzN2un25V+2/Q5AgSV0DI9mKSTQrdRK4rFugkx2j6TkFzRcFy/49rmzZzDnT6Xh7z/2/5RgWeC69bpX0eHuFITTgnqtw3XJeX/BKPMMbsrPFxd6vNDO5awfH5RQjphAvSfEwSU4RjRGonte/ezUPCjWIEU++nL+NKY3wEvcnmJBIF86jzrmlKMMOIAT7Silyi6VxpX7LyhNLFHvndWNrfZMtgVMN0+fZmvE/lnqS5mVunBC1LlgECCYgr6caIxhdlX1Uv3GFu0hP8e4A0XYysWx4IztWkORB8APdv0Vt2SX/MnnfsU8xlFC8axM81e+CGju8GKkKalZLLdaDJU943J4PPuIf/875fcr06oiiIqXEYy6Ej8+KwDYm3i0+jrme83zAWQhS7TeAy4dgP+5pKqa3p8jp+HkUIRfp0q4Mp6tQC8SBiVwuzuMExzmvsAeH1J1fFPiAAAA=" clip-path="url(#c81ea64)"/>
 </a>
 <a href="https://zephyr-cloud.io" class="sponsorkit-link" target="_blank" id="ZephyrCloudIO">
-  <text x="400" y="153" text-anchor="middle" class="sponsorkit-name" fill="currentColor">Zephyr Cloud IO</text>
+  <text x="400" y="153" text-anchor="middle" class="sponsorkit-name" fill="currentColor">Zephyr</text>
   
   <clipPath id="c238230">
     <rect x="365" y="65" width="70" height="70" rx="7" ry="7" />
