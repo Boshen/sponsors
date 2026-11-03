@@ -59428,7 +59428,7 @@
         "value": 100
       },
       "totalDonations": {
-        "value": 1100
+        "value": 1200
       },
       "fromAccount": {
         "name": "N-iX Ltd",
@@ -75643,7 +75643,7 @@
         "value": 100
       },
       "totalDonations": {
-        "value": 1100
+        "value": 1200
       },
       "fromAccount": {
         "name": "Miro",
@@ -88604,7 +88604,7 @@
         "value": 200
       },
       "totalDonations": {
-        "value": 1400
+        "value": 1600
       },
       "fromAccount": {
         "name": "Persona",
@@ -91878,7 +91878,7 @@
         "value": 20
       },
       "totalDonations": {
-        "value": 140
+        "value": 160
       },
       "fromAccount": {
         "name": "Sunil Pai",
@@ -95954,7 +95954,7 @@
         "value": 5
       },
       "totalDonations": {
-        "value": 35
+        "value": 40
       },
       "fromAccount": {
         "name": "Electric UI",
@@ -107481,7 +107481,7 @@
         "value": 5
       },
       "totalDonations": {
-        "value": 15
+        "value": 20
       },
       "fromAccount": {
         "name": "Trevor Burnham",
@@ -112971,7 +112971,7 @@
         "value": 5
       },
       "totalDonations": {
-        "value": 15
+        "value": 20
       },
       "fromAccount": {
         "name": "Eric Taylor",
@@ -115250,7 +115250,7 @@
         "value": 20
       },
       "totalDonations": {
-        "value": 40
+        "value": 60
       },
       "fromAccount": {
         "name": "Luke Page",
@@ -116466,7 +116466,7 @@
         "value": 5
       },
       "totalDonations": {
-        "value": 5
+        "value": 10
       },
       "fromAccount": {
         "name": "FastSocial",
@@ -116475,7 +116475,7 @@
         "type": "ORGANIZATION",
         "socialLinks": [
           {
-            "url": "https://fastsocial.co",
+            "url": "https://fastsocial.co/",
             "type": "WEBSITE"
           }
         ],
